@@ -58,7 +58,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.15.3</version>
                 <configuration>
-                    <dockerHost>http://www.garcios.space:2375</dockerHost>
+                    <dockerHost>${DOCKER_URL}</dockerHost>
                     <verbose>true</verbose>
                     <images>
                         <image>
