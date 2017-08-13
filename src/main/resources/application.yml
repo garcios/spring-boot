@@ -1,7 +1,4 @@
-first:
-  name:Oscar
-
-name: ${first.name} Garcia
+name: "Oscar Garcia"
 
 server:
   port: 8090
