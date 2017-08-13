@@ -7,3 +7,9 @@ eureka:
 spring:
   application:
     name: oscar-app
+    
+  cloud:
+    config: 
+      uri: http://128.199.121.43:8888    
+      
+          
