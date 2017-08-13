@@ -1,15 +1,17 @@
+spring:
+  application:
+    name: oscar-app
+  profiles:
+   active: dev
+    
+  cloud:
+    config: 
+      uri: http://128.199.121.43:8888    
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://128.199.121.43:8761/eureka/
 
-
-spring:
-  application:
-    name: oscar-app
-    
-  cloud:
-    config: 
-      uri: http://128.199.121.43:8888    
       
           
